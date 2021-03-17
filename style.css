@@ -1,0 +1,192 @@
+.fullpage {
+  max-width: auto;
+  margin: 0 auto;
+  height: auto;
+  
+  background: #FFE792;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: 60px repeat(27, 40px);
+  grid-gap: 8px;
+  border-radius: 10px;
+ 
+
+  @media only screen and(max-width: 640px) {
+    grid-gap: 10px;
+    padding: 1rem;
+  }
+  
+  
+}
+
+
+
+
+#intro {
+  background-color: #6D633F;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+h1 {
+  padding-left: 25%;
+  color: white;
+  font-family: "lobster";
+  font-weight: 40;
+  font-size: 100px;
+  
+}
+
+h2 {
+  font-family: "lobster";
+  font-weight: 40;
+  font-size: 25px;
+  padding-left: 40%;
+  color: white;
+  
+  
+}
+
+h3 {
+  
+  font-family: "lobster";
+  font-weight: 20;
+  font-size: 25px;
+  padding-right: 10%;
+  color: white;
+}
+
+img {
+  width: 200px;
+  padding-left: 15%;
+}
+
+.img:hover{
+  transform: scale(1.3);
+}
+
+ul {
+  text-align: center;
+  
+}
+
+.overview {
+      grid-column: 2 / 6;
+      grid-row: 2 / 6;
+      border: solid;
+      padding-bottom: 50%;
+      padding-right: 2%;
+      padding-left: 2%;
+  
+}
+
+.tagline {
+      grid-column: 7 / 11;
+      grid-row: 2 / 5;
+      border: solid;
+}
+
+.tagline:hover{
+  transform: scale(1.3);
+}
+
+.additionalskills {
+      grid-column: 8 / 10;
+      grid-row: 7 / 13;
+      border: solid;
+      padding-right: 2%;
+      padding-left: 2%;
+}
+
+.additionalskills:hover{
+  transform: scale(1.3);
+}
+
+.workexperience {
+      grid-column: 7 / 11;
+      grid-row: 15 / 24;
+      border: solid;
+      padding-right: 2%;
+      padding-left: 2%;
+}
+
+.workexperience:hover{
+  transform: scale(1.3);
+}
+
+.education {
+      grid-column: 2 / 6;
+      grid-row: 8 / 12;
+      border: solid;
+      padding-bottom: 50%;
+      padding-right: 2%;
+      padding-left: 2%;
+}
+
+.education:hover{
+  transform: scale(1.3);
+}
+
+.coursework {
+      grid-column: 2 / 6;
+      grid-row: 14 / 16;
+      border: solid;
+      padding-bottom: 60%;
+      padding-right: 2%;
+      padding-left: 2%;
+}
+
+.coursework:hover{
+  transform: scale(1.3);
+}
+
+.overview:hover{
+  transform: scale(1.3);
+}
+
+.csskills {
+      grid-column: 2 / 6;
+      grid-row: 21 / 22;
+      border: solid;
+      padding-bottom: 70%;
+      padding-right: 2%;
+      padding-left: 2%;
+}
+
+.csskills:hover{
+  transform: scale(1.3);
+}
+
+body{
+  background: #6D633F;
+}
+
+h4 {
+  
+  font-family: "lobster";
+  font-weight: 20;
+  font-size: 25px;
+  color: black;
+ 
+  
+}
+
+footer {
+  
+  display: flex; 
+  justify-content: center;
+  height: 3em;
+  padding-bottom: .5em;
+  color: white;
+}
+
+@media(min-width: 600px)
+{
+   h4{
+    font-size: 1.5rem;
+  }
+}
+
+
+}
